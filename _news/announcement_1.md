@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-06-28 18:14:00-0000
 inline: true
 ---
 
-A simple inline announcement.
+[British Seismology Meeting](https://wserv4.esc.cam.ac.uk/bsm). Early bird registration ends in 2 days).

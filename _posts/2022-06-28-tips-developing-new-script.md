@@ -1,4 +1,10 @@
-# Tips on developing new python scripts 
+---
+layout: post
+title:  Tips on developing new python scripts
+date:   2022-06-28 18:18:00 +0100
+description: Python scripts
+tags: Python
+---
 
 I need to write new python scripts once a while for research projects. Sometimes I wrote the same script more than once because I forgot where the previous script is. Sometimes I wrote a similar script because the previous script does not fits my current need completely and needs minor changes. After writing same and similar scripts for several times, I found the following way can help reduce the time of rewriting.
 
