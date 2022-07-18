@@ -11,6 +11,7 @@ profile:
     <p>Bullard Laboratories</p>
     <p>Madingley Road</p>
     <p>Cambridge, CB3 0EZ</p>
+    <p>United Kingdom</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
