@@ -6,7 +6,7 @@ subtitle: <a href='#'>University of Cambridge</a>. Cambridge, UK. yx362@cam.ac.u
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: new_prof_pic.jpg
   address: >
     <p>Bullard Laboratories</p>
     <p>Madingley Road</p>
