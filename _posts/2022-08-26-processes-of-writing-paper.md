@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Processes in Writing Papers
-date:   2022-06-28 18:18:00 +0100
+title:  How to write the first draft
+date:   2022-08-29 21:44:00 +0100
 description: Writing
 tags: Academic Writing
 ---
