@@ -36,5 +36,11 @@ If a research plan is written before the study started, the plan can be a good s
 It is very unlikely that a researcher do research for no reasons. It is more likely that we find something surprising and unexpected by-products and try to explore its significance.
 
 ### Start from a list of related questions and decide which one the results contribute the most.
-I am not sure how this works. It is more helpful when trying to think of a idea for proposals.
+I am not sure if this works. It is more helpful when trying to think of a idea for proposals.
 Actually, formulating a research question is similar to writing proposals.
+
+
+## Organisation of the folder structure
+I found that, besides a messy and large folder structure that keeps all the information you created during the research, it is good to have a small folder that stores selected, organised dataset/figures/documents that distilled from the research process.
+
+For example, a set of figures for a certain manuscript.
