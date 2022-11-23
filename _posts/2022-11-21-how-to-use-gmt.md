@@ -16,6 +16,26 @@ Use `grdtrack` to sample the points.
 gmt gmtselect -R$R -J$J points.xy | gmt grdtrack -Rg -Gvelocity.grd > sampled_vs.xy
 ```
 
+### Use `gmtselect` to exclude points in an area defined by a polygon
+- Use `-Fpolygonfile` to specify the polygon file
+- Use `-I` to select points outside the polygon. If `-I` is not given, then `gmtselect` will select the points inside the polygon
+- Use `-fg` to tell `gmtselect` that your data are geographical, in longitude and latitude, if no projection is given.
+- The polygon file is a muliple-segment file. It must be in ASCII. 
+It can define multiple polygons, 
+but no consecutive points can be "separated by 180 degrees or more in longitude",
+when lon, lat is used. 
+
+So the command to exclude points in an area (defined by `mypolygon.xy`) is
+```
+# GMT5
+gmt gmtselect mydata.txt -Fmypolygon.xy -fg -I > myselecteddata.txt
+
+# GMT6
+gmt select mydata.txt -Fmypolygon.xy -fg -I > myselecteddata.txt
+```
+The output `myselecteddata.txt` will not have points falls into the given area.
+
+
 ### Convert UTM coordinates to longitude and latitude
 UTM in 16U to lonlat
 ```
